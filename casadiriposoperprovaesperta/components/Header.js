@@ -16,29 +16,29 @@ const Header = () => {
         </div>
         <nav className="mt-4 w-full">
           <ul className="flex justify-between text-black font-medium border-t-2 border-blue-600 pt-2">
-            <li><a href="#" className="hover:text-blue-600">Homepage</a></li>
+            <li><a href="/" className="hover:text-blue-600">Homepage</a></li>
             <li className="relative group">
               <a href="#" className="hover:text-blue-600 ">Servizi</a>
               <ul className="absolute hidden group-hover:block bg-white shadow-lg pl-30">
-                <li><a href="#" className="hover:text-blue-600">CENTRO DIURNO "ANCHISE"</a></li>
-                <li><a href="#" className="hover:text-blue-600">CENTRO ANZIANI "COLORA IL TUO TEMPO"</a></li>
-                <li><a href="#" className="hover:text-blue-600">SERVIZIO ASSISTENZA DOMICILIARE S.A.D.</a></li>
-                <li><a href="#" className="hover:text-blue-600">SPORTELLO ASSISTENTI FAMILIARI</a></li>
-                <li><a href="#" className="hover:text-blue-600">PUNTO PRELIEVI "PASSARELLA" SERVIZIO INFERMIERISTICO</a></li>
+                <li><a href="/servizi" className="hover:text-blue-600">CENTRO DIURNO "ANCHISE"</a></li>
+                <li><a href="/servizi2" className="hover:text-blue-600">CENTRO ANZIANI "COLORA IL TUO TEMPO"</a></li>
+                <li><a href="/servizi3" className="hover:text-blue-600">SERVIZIO ASSISTENZA DOMICILIARE S.A.D.</a></li>
+                <li><a href="/servizi4" className="hover:text-blue-600">SPORTELLO ASSISTENTI FAMILIARI</a></li>
+                <li><a href="/servizi5" className="hover:text-blue-600">PUNTO PRELIEVI "PASSARELLA" SERVIZIO INFERMIERISTICO</a></li>
               </ul>
             </li>
             <li className="relative group">
               <a href="#" className="hover:text-blue-600">PERCHE' L'IPAB</a>
               <ul className="absolute hidden group-hover:block bg-white shadow-lg pl-30">
-                <li><a href="#" className="hover:text-blue-600">VISION E MISSION</a></li>
-                <li><a href="#" className="hover:text-blue-600"> STATUTO</a></li>
+                <li><a href="/perche" className="hover:text-blue-600">VISION E MISSION</a></li>
+                <li><a href="/statuto" className="hover:text-blue-600"> STATUTO</a></li>
               </ul>
             </li>
             <li className="relative group">
               <a href="#" className="hover:text-blue-600">I.P.A.B. Informa</a>
-              <div className="absolute hidden group-hover:flex bg-white shadow-lg p-4 space-x-22">
+              <div className="absolute hidden group-hover:flex bg-white shadow-lg p-4 space-x-8 xl-full">
                 <div>
-                  <h4><a href="#" className="font-bold hover:text-blue-600">Accesso agli atti</a></h4>
+                  <h4><a href="/" className="font-bold hover:text-blue-600">Accesso agli atti</a></h4>
                   <ul>
                     <li>Il servizio consente la consultazione degli atti amministrativi in corso di pubblicazione all'Albo Pretorio on-line, nonchè degli atti la cui pubblicazione è scaduta.</li>
                     <li>Albo pretorio</li>
@@ -65,7 +65,7 @@ const Header = () => {
                 {/* Dropdown content (can be added here) */}
               </div>
             </li>
-            <li><a href="#" className="hover:text-blue-600">Extranet</a></li>
+            <li><a href="/extranet" className="hover:text-blue-600">Extranet</a></li>
             <li><a href="#" className="hover:text-blue-600">PRIVACY</a></li>
           </ul>
         </nav>
