@@ -1,14 +1,15 @@
 import React from 'react';
-import Buttons from "@/components/Buttons";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Login from "@/components/Login";
 
-export default function perche() {
+export default function Home() {
   return (
     <>
-    <Buttons></Buttons>
     <Header></Header>
-
+    <br></br>
+  <Login></Login> 
+    
     
     <br></br>
     <Footer></Footer> 

@@ -8,7 +8,7 @@ export default function Home() {
         <div>
             <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
 
-            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Accedi alla extranet</h1>
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Accedi alla intranet</h1>
 
             <p class="mt-3 text-gray-500 dark:text-gray-400"></p>
         </div>

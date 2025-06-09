@@ -31,7 +31,7 @@ const Header = () => {
               <a href="#" className="hover:text-blue-600">PERCHE' L'IPAB</a>
               <ul className="absolute hidden group-hover:block bg-white shadow-lg pl-30">
                 <li><a href="/perche" className="hover:text-blue-600">VISION E MISSION</a></li>
-                <li><a href="/statuto" className="hover:text-blue-600"> STATUTO</a></li>
+                <li><a href="https://www.cdrmonumento.com/ae2131/zf/index.php/servizi-aggiuntivi/index/index/idtesto/20" className="hover:text-blue-600"> STATUTO</a></li>
               </ul>
             </li>
             <li className="relative group">
@@ -49,24 +49,31 @@ const Header = () => {
                 <div>
                   <h4 className="font-bold"><a href="#" className="hover:text-blue-600">Amministrazione trasparente</a></h4>
                   <ul>
-                    <li><a href="#" className="hover:text-blue-600">In questa sezione sono pubblicati, raggruppati secondo le indicazioni di legge, documenti, informazioni e dati concernenti l'organizzazione dell' amministrazione, le attivita' e le sue modalita' di realizzazione.</a></li>
-                    <li><a href="#" className="hover:text-blue-600">Amministrazione trasparente</a></li>
+                    <li>In questa sezione sono pubblicati, raggruppati secondo le indicazioni di legge, documenti, informazioni e dati concernenti l'organizzazione dell' amministrazione, le attivita' e le sue modalita' di realizzazione.</li>
+                    <li><a href="/ammi" className="hover:text-blue-600">Amministrazione trasparente</a></li>
                   </ul>
                 </div>
               </div>
             </li>
-            <li><a href="#" className="hover:text-blue-600">Sostienici</a></li>
+            <li><a href="/sostenici" className="hover:text-blue-600">Sostienici</a></li>
             <li>
               <div className="relative group">
                 <a href="#" className="hover:text-blue-600 flex items-center">
                   Accessi riservati
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
                 </a>
+                <ul className="absolute hidden group-hover:block bg-white shadow-lg pl-30">
+                <li><a href="/intranet" className="hover:text-blue-600">
+
+Intranet sito
+</a></li>
+                <li><a href="/aread" className="hover:text-blue-600"> Area Dipendenti</a></li>
+              </ul>
                 {/* Dropdown content (can be added here) */}
               </div>
             </li>
             <li><a href="/extranet" className="hover:text-blue-600">Extranet</a></li>
-            <li><a href="#" className="hover:text-blue-600">PRIVACY</a></li>
+            <li><a href="/privacy" className="hover:text-blue-600">PRIVACY</a></li>
           </ul>
         </nav>
       </div>

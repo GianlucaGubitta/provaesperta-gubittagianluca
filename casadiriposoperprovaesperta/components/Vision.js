@@ -20,7 +20,7 @@ const Vision = () => {
        
       </div>
       <div>
-        <h2 className="text-2xl font-semibold text-white-800 mb-4 border-b-2 border-blue-500 pb-2">
+        <h2 className="text-2xl font-semibold text-white-800 mb-4  pb-2">
         VISION E MISSION
         </h2>
         <h3 className="text-2xl font-semibold text-white-800 mb-4 border-b-2 border-blue-500 pb-2">
